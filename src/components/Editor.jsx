@@ -19,7 +19,6 @@ export default function Editor(props) {
     setOpen(prevOpen => !prevOpen)
   }
 
-console.log(open)
 
   const{
     onChange,
