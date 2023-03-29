@@ -18,7 +18,7 @@ export default function App() {
           <style>${css}</style>
           <script>${js}</script>
         </html>
-  ` ),250)
+  ` ),250)  
 
     //cancels timeout is change is made before 250 sec as to not line it in queue
     return() => clearTimeout(timeout) 
